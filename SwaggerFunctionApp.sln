@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerFunctionApp.Api", "SwagerTestFunctionApp\SwaggerFunctionApp.Api.csproj", "{46B922B9-4FE0-4A66-A6E2-9E8211DF2811}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerFunctionApp.Common", "SwagerTestFunctionApp.Common\SwaggerFunctionApp.Common.csproj", "{FAF12637-61F7-4080-8ED9-DDC4C66351F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46B922B9-4FE0-4A66-A6E2-9E8211DF2811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B922B9-4FE0-4A66-A6E2-9E8211DF2811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B922B9-4FE0-4A66-A6E2-9E8211DF2811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B922B9-4FE0-4A66-A6E2-9E8211DF2811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF12637-61F7-4080-8ED9-DDC4C66351F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF12637-61F7-4080-8ED9-DDC4C66351F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF12637-61F7-4080-8ED9-DDC4C66351F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF12637-61F7-4080-8ED9-DDC4C66351F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A27158D-7319-4A73-AD8B-50B23588B187}
+	EndGlobalSection
+EndGlobal
