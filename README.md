@@ -11,7 +11,7 @@ Thanks!
 ### Installing
 Fork or clone this bad boy and run it up. 
 
-This is nothing more than a simple Function App that will return what ever variable you throw at in as a url parameter.
+This is nothing more than a simple Function App that will return what ever variable you throw at it as a url parameter.
 
 ### Using
 To navigate to the Swagger Ui use
