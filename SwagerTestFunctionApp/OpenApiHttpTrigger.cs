@@ -46,7 +46,7 @@ namespace SwaggerFunctionApp.Api
             string extension,
             ILogger log)
         {
-            RenderOpenApiDocumentFunctionOptions options = new RenderOpenApiDocumentFunctionOptions("v2", extension, Assembly.GetExecutingAssembly());
+            RenderOpenApiDocumentFunctionOptions options = new RenderOpenApiDocumentFunctionOptions("v3", extension, Assembly.GetExecutingAssembly());
             var result = await this._openApiDoc
                                    .AddLogger(log)
                                    .InvokeAsync<HttpRequest, IActionResult>(req, options)
